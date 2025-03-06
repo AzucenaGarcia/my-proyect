@@ -1,4 +1,5 @@
 import json
+from venv import create
 
 import requests
 
@@ -6,7 +7,7 @@ start = "2025-02-26"
 end = "2025-02-26"
 
 
-with open('file.txt', 'r', encoding='utf8') as f:
+with create('file.txt', 'r', encoding='utf8') as f:
     secret = f.read()
 
 

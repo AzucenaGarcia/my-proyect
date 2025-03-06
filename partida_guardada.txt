@@ -1,0 +1,1 @@
+{"posicion": [0.07639091461896896, 0.5, 2.6352148056030273], "tiene la llave": false, "puerta abierta": false}
